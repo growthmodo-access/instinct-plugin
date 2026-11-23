@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.2-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -36,19 +36,22 @@ Paste the **license key** from your Growthmodo welcome email when asked (it star
 
 <br>
 
-## 🧠 Ten commands. One instinct.
+## 🧠 Ten commands. All of Meta media buying.
+
+From the first brand conversation to the monthly report, the same ten commands work for a brand spending $2,000 a month and one spending $20 million. The rules scale with the spend.
 
 | | Command | What you get back |
 |:-:|---|---|
-| 📊 | `/instinct:report <client>` | A **branded client report** — scorecard vs target, day-by-day charts with anomalies flagged in red, a Scale / Hold / Fix / Cut verdict on every campaign |
-| 🩺 | `/instinct:audit [account]` | A **graded audit deck** — A–F per area, money at stake, ranked fixes, 30/60/90-day roadmap. Prints one slide per page |
-| 📉 | `/instinct:cpa [what changed]` | **Why CPA rose**, which campaigns did it, what's been ruled out — and the one change to make |
-| 🎬 | `/instinct:brief <offer>` | **Five hooks** from five different angles, then a designer-ready brief for the strongest |
-| ✍️ | `/instinct:copy <ad>` | Primary text, headlines and descriptions — each variant testing **one** lever, inside approved claims |
-| 🛡️ | `/instinct:check-ad <market> <ad>` | A **pre-launch policy check** (Meta + local rules) with severity, sources and a rewrite for every issue |
-| 🔭 | `/instinct:competitors [names]` | What rivals are running, clustered into **angles you can actually own** |
-| 🚀 | `/instinct:start` | Setup check + the brand interview every other command builds on |
-| 🎯 | `/instinct:report-profile <client>` | How each client wants to be reported to — asked once, followed every time |
+| 🚀 | `/instinct:start` | **Brand onboarding**: what's connected, the brand profile, the Mandate (targets, limits, who approves) and a tracking check |
+| 🔭 | `/instinct:research [competitors]` | **Market research**: competitor ads plus what customers actually say, turned into angles you can own |
+| 🎯 | `/instinct:angles <offer>` | **Creative strategy**: angles, hooks and concepts, each with a hypothesis and test plan, plus a designer-ready brief |
+| 🎬 | `/instinct:creative <concept>` | **Ad creative**: copy variants, ready-to-paste image ad prompts, and video ads made with your AI video tool after you approve the storyboard and the credits |
+| 🛡️ | `/instinct:check <ad / url>` | **Pre-launch check**: Meta policy and local rules, the landing page (graded, with rewrites) and tracking, each pass, fix or block |
+| 🛫 | `/instinct:launch <offer>` | **Plan & launch**: a media plan sized to the budget, built **paused**, live only when you say so, with a launch tracker |
+| 📈 | `/instinct:monitor` | **Pacing & monitoring**: spend vs plan per market, delivery problems, tracking outages, Day 1/3/7/14 checkpoints |
+| 📉 | `/instinct:optimize [question]` | **Performance optimizer**: why CPA moved, what to scale, hold, fix or cut, or a graded audit deck |
+| 📊 | `/instinct:report <client>` | A **branded client report**: scorecard vs target, day-by-day charts, a verdict on every campaign |
+| 🧠 | `/instinct:learnings` | **Learnings log**: close out tests and keep what won and lost, so the next round starts smarter |
 | 🆕 | `/instinct:whats-new` | What changed in the playbooks since you last looked |
 
 Prefer plain English? Just ask — *"why did CPA jump on Prospecting UK this week?"* — Instinct picks the right playbook on its own.
@@ -89,9 +92,9 @@ The playbooks live on Growthmodo's servers and are sent to Claude only when you'
 
 ## 💬 It sounds like this
 
-> **You:** `/instinct:cpa CPA on Prospecting UK went from £22 to £29 this week`
+> **You:** `/instinct:optimize CPA on Prospecting UK went from £22 to £29 this week`
 >
-> **Growthmodo Instinct** · CPA Diagnosis
+> **Growthmodo Instinct** · Performance Optimizer
 >
 > **Money at stake:** ~£2,480 a week at the new CPA.
 > **What happened:** CPA £22.40 → £29.10 (+30%) on 412 → 371 purchases. Not noise.

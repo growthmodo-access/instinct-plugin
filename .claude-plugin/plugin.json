@@ -1,7 +1,7 @@
 {
   "name": "instinct",
-  "version": "1.0.2",
-  "description": "Growthmodo Instinct: media-buying playbooks for Meta ads \u2014 client reports, CPA diagnosis, account audits, creative briefs, compliance checks and competitor research \u2014 as slash commands.",
+  "version": "1.1.0",
+  "description": "Growthmodo Instinct: 360° Meta media buying in 10 slash commands — onboarding, research, creative strategy, ad creative, pre-launch checks, plan & launch, pacing, optimisation, client reports and learnings.",
   "author": {
     "name": "Growthmodo"
   },

@@ -1,6 +1,6 @@
 {
   "name": "instinct",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Growthmodo Instinct: 360° Meta media buying in 10 slash commands — onboarding, research, creative strategy, ad creative, pre-launch checks, plan & launch, pacing, optimisation, client reports and learnings.",
   "author": {
     "name": "Growthmodo"
@@ -18,7 +18,7 @@
     "license_key": {
       "type": "string",
       "title": "Growthmodo Instinct license key",
-      "description": "The key from your Growthmodo welcome email (starts with gmi_). It is stored in secure storage and sent only to Growthmodo Instinct.",
+      "description": "The license key from your Growthmodo welcome email, exactly as it appears. It is stored in secure storage and sent only to Growthmodo Instinct.",
       "required": true,
       "sensitive": true
     }

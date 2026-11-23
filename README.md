@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1.1-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -29,7 +29,7 @@ In Claude Code (terminal, the desktop app's Code tab, or your IDE):
 /plugin install instinct@growthmodo
 ```
 
-Paste the **license key** from your Growthmodo welcome email when asked (it starts with `gmi_`). It goes into your system's secure storage and is only ever sent to Growthmodo Instinct. Restart Claude Code, type `/instinct`, done.
+Paste the **license key** from your Growthmodo welcome email when asked, exactly as it appears. It goes into your system's secure storage and is only ever sent to Growthmodo Instinct. Restart Claude Code, type `/instinct`, done.
 
 > [!TIP]
 > Connect a **Meta Ads** MCP server too, so audits, diagnoses and reports read your live numbers. Without it, Claude simply asks you for an export.

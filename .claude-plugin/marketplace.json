@@ -1,0 +1,15 @@
+{
+  "name": "growthmodo",
+  "description": "Growthmodo's plugins for Claude Code.",
+  "owner": {
+    "name": "Growthmodo"
+  },
+  "plugins": [
+    {
+      "name": "instinct",
+      "source": "./",
+      "description": "Growthmodo Instinct media-buying playbooks for Meta ads, as slash commands.",
+      "version": "1.0.0"
+    }
+  ]
+}

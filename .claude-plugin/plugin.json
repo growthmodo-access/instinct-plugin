@@ -1,0 +1,17 @@
+{
+  "name": "instinct",
+  "version": "1.0.0",
+  "description": "Growthmodo Instinct: media-buying playbooks for Meta ads — client reports, CPA diagnosis, account audits, creative briefs, compliance checks and competitor research — as slash commands.",
+  "author": { "name": "Growthmodo" },
+  "homepage": "https://instinct-staging.growthmodo.workers.dev/",
+  "keywords": ["meta-ads", "facebook-ads", "media-buying", "reporting", "growthmodo"],
+  "userConfig": {
+    "license_key": {
+      "type": "string",
+      "title": "Growthmodo Instinct license key",
+      "description": "The key from your Growthmodo welcome email (starts with gmi_). It is stored in secure storage and sent only to Growthmodo Instinct.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

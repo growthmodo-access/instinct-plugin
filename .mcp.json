@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "instinct": {
+      "type": "http",
+      "url": "https://instinct-staging.growthmodo.workers.dev/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.license_key}" }
+    }
+  }
+}

@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.2-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -131,7 +131,7 @@ No. Every playbook is read-only. Claude will list a change and only make it if y
 <details>
 <summary><b>Where does my license key go?</b></summary>
 <br>
-Into your operating system's secure storage via Claude Code's plugin settings. It's sent only to <code>instinct.growthmodo.com</code>. Change it any time: <code>/plugin</code> → <b>instinct</b> → <b>Configure</b>.
+Into your operating system's secure storage via Claude Code's plugin settings. It's sent only to <code>mcp.growthmodo.com</code>, the Growthmodo Instinct server. Change it any time: <code>/plugin</code> → <b>instinct</b> → <b>Configure</b>.
 </details>
 
 <details>

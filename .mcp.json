@@ -2,7 +2,7 @@
   "mcpServers": {
     "instinct": {
       "type": "http",
-      "url": "https://instinct.growthmodo.com/mcp",
+      "url": "https://mcp.growthmodo.com/mcp",
       "headers": { "Authorization": "Bearer ${user_config.license_key}" }
     }
   }

@@ -36,7 +36,7 @@ You can also just ask in plain words — Claude uses Instinct for any Meta ads r
 
 - Connect a **Meta Ads** MCP server so audits, CPA diagnosis and reports can read live numbers (read-only). Without it, Claude asks for an export.
 - Keep each brand's Brand Profile and Report Profile in that brand's project folder (for example `brand-profile.md`) so every session starts with the context.
-- Full guide: https://instinct-staging.growthmodo.workers.dev/
+- Full guide: https://instinct.growthmodo.com/
 
 ## What's in this repo
 

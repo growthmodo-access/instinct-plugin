@@ -1,12 +1,12 @@
 {
   "name": "instinct",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Growthmodo Instinct: media-buying playbooks for Meta ads \u2014 client reports, CPA diagnosis, account audits, creative briefs, compliance checks and competitor research \u2014 as slash commands.",
   "author": {
     "name": "Growthmodo"
   },
   "license": "LicenseRef-Growthmodo-Proprietary",
-  "homepage": "https://instinct-staging.growthmodo.workers.dev/",
+  "homepage": "https://instinct.growthmodo.com/",
   "keywords": [
     "meta-ads",
     "facebook-ads",

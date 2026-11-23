@@ -1,0 +1,29 @@
+Growthmodo Instinct Plugin — Proprietary License
+
+Copyright (c) 2026 Growthmodo. All rights reserved.
+
+This repository contains the Growthmodo Instinct plugin for Claude Code (the
+"Software"). The Software is published so that licensed Growthmodo Instinct
+customers can install it.
+
+Permission is granted to download, install and use the Software solely to
+access Growthmodo Instinct with a valid Growthmodo Instinct license key.
+
+You may not, without Growthmodo's prior written permission:
+  - copy, modify, merge, adapt or create derivative works of the Software,
+    except as needed to install and run it;
+  - publish, distribute, sublicense, sell or otherwise make the Software
+    available to others, including as part of another plugin or product;
+  - use the Software, its commands or its structure to build or operate a
+    competing product or service.
+
+Access to Growthmodo Instinct and its playbooks is governed separately by
+your Growthmodo subscription terms. Installing the Software does not grant
+any right to that content.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+GROWTHMODO BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -41,3 +41,7 @@ You can also just ask in plain words — Claude uses Instinct for any Meta ads r
 ## What's in this repo
 
 Only the plugin wiring: the slash commands and the connection to Growthmodo Instinct. The playbooks themselves are served by Instinct to licensed users.
+
+## License
+
+Proprietary — see [LICENSE](LICENSE). Licensed Growthmodo Instinct customers may install and use this plugin; copying, modifying or redistributing it is not permitted.

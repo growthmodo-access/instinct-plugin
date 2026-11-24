@@ -76,7 +76,7 @@ Prefer plain English? Just ask — *"why did CPA jump on Prospecting UK this wee
   </tr>
 </table>
 
-<p align="center"><sub>Sample data. Live previews: <a href="https://instinct.growthmodo.com/samples/report">client report</a> · <a href="https://instinct.growthmodo.com/samples/audit">audit deck</a></sub></p>
+<p align="center"><sub>Sample data. Live previews: <a href="https://www.growthmodo.com/instinct/samples/report/">client report</a> · <a href="https://www.growthmodo.com/instinct/samples/audit/">audit deck</a></sub></p>
 
 <br>
 
@@ -140,7 +140,7 @@ Into your operating system's secure storage via Claude Code's plugin settings. I
 <details>
 <summary><b>I use claude.ai, not Claude Code.</b></summary>
 <br>
-Same playbooks, no plugin needed: add Instinct as a custom connector with the URL from your welcome email, then use the <b>+</b> menu starters. Full guide: <a href="https://instinct.growthmodo.com/">instinct.growthmodo.com</a>.
+Same playbooks, no plugin needed: add Instinct as a custom connector with the URL from your welcome email, then use the <b>+</b> menu starters. Full guide: <a href="https://www.growthmodo.com/">growthmodo.com</a>.
 </details>
 
 <details>
@@ -165,4 +165,4 @@ Only the plugin wiring: the slash commands and the secure connection to Growthmo
 
 Proprietary — see [LICENSE](LICENSE). Licensed Growthmodo Instinct customers may install and use this plugin; copying, modifying or redistributing it is not permitted.
 
-<p align="center"><br><sub>Made by <b>Growthmodo</b> · <a href="https://instinct.growthmodo.com/">instinct.growthmodo.com</a></sub></p>
+<p align="center"><br><sub>Made by <b>Growthmodo</b> · <a href="https://www.growthmodo.com/">growthmodo.com</a></sub></p>

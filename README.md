@@ -36,9 +36,9 @@ Paste the **license key** from your Growthmodo welcome email when asked, exactly
 
 <br>
 
-## 🧠 Ten commands. All of Meta media buying.
+## 🧠 Eleven commands. All of Meta media buying.
 
-From the first brand conversation to the monthly report, the same ten commands work for a brand spending $2,000 a month and one spending $20 million. The rules scale with the spend.
+From the first brand conversation to the monthly report, the same eleven commands work for a brand spending $2,000 a month and one spending $20 million. The rules scale with the spend.
 
 | | Command | What you get back |
 |:-:|---|---|
@@ -49,6 +49,7 @@ From the first brand conversation to the monthly report, the same ten commands w
 | 🛡️ | `/instinct:check <ad / url>` | **Pre-launch check**: Meta policy and local rules, the landing page (graded, with rewrites) and tracking, each pass, fix or block |
 | 🛫 | `/instinct:launch <offer>` | **Plan & launch**: a media plan sized to the budget, built **paused**, live only when you say so, with a launch tracker |
 | 📈 | `/instinct:monitor` | **Pacing & monitoring**: spend vs plan per market, delivery problems, tracking outages, Day 1/3/7/14 checkpoints |
+| 🔁 | `/instinct:fatigue` | **Ad fatigue**: each ad against its own first week and Meta's signals; which ads are wearing out, days left, what to replace first |
 | 📉 | `/instinct:optimize [question]` | **Performance optimizer**: why CPA moved, what to scale, hold, fix or cut, or a graded audit deck |
 | 📊 | `/instinct:report <client>` | A **branded client report**: scorecard vs target, day-by-day charts, a verdict on every campaign |
 | 🧠 | `/instinct:learnings` | **Learnings log**: close out tests and keep what won and lost, so the next round starts smarter |

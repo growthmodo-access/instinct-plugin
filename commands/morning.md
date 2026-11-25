@@ -1,5 +1,5 @@
 ---
-description: Morning check for every brand at once: the Media Buyer checks each brand side by side and you get one list of what needs you today
+description: Morning check for every brand at once: Instinct checks each brand side by side and you get one list of what needs you today
 argument-hint: [brands to include, or blank for all saved brands]
 ---
 Run the Growthmodo Instinct morning check.

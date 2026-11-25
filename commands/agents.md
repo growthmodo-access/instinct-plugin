@@ -1,8 +1,8 @@
 ---
-description: Your Growthmodo media team: the four agents, what each owns, and how to hand them work
+description: How Instinct works in Claude Code, and example requests to try
 argument-hint: [brand]
 ---
-Show me my Growthmodo media team. Call the Growthmodo Instinct tool `get_agent` with no role (and the brand, if I named one: $ARGUMENTS), then show only the table of roles and the Claude Code part of the setup: the four agents are already installed with this plugin as `media-buyer`, `creative-strategist`, `compliance-reviewer` and `account-manager`.
-Then give me three example requests that use them, for example "Have the Media Buyer check pacing for <brand>", "Ask the Creative Strategist for 10 video ideas for <brand>, then the Compliance Reviewer on the finished ads", and `/instinct:morning`. End with one `👉 Next:` line.
+Explain Growthmodo Instinct to me in Claude Code, briefly: it's one AI media buyer, and I just ask. Call the Growthmodo Instinct tool `get_agent` with no role (and the brand, if I named one: $ARGUMENTS) and use only its Claude Code part. Say in one line that, behind the scenes, Instinct hands long jobs to helper agents that work in their own context and can run side by side, and that every finished ad gets a separate check; don't present the helpers as a team I manage.
+Then give me three example requests, for example "Why did CPA jump on Prospecting UK this week?", "Give me 10 video ideas for <brand> and check the finished ads", and `/instinct:morning`. End with one `👉 Next:` line.
 
 If the Instinct tools are missing or return a license error, tell me to run `/plugin` → instinct → configure and enter the license key from my Dodo Payments email, and stop.

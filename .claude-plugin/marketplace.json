@@ -8,8 +8,8 @@
     {
       "name": "instinct",
       "source": "./",
-      "description": "Growthmodo Instinct media-buying playbooks for Meta ads: a four-agent media team and slash commands.",
-      "version": "1.5.0"
+      "description": "Growthmodo Instinct: your AI Meta media buyer in Claude Code.",
+      "version": "1.6.0"
     }
   ]
 }

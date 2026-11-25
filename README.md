@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.5.0-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.6.0-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -36,26 +36,19 @@ Paste the **license key** from your Dodo Payments email (sent after you buy) whe
 
 <br>
 
-## 👥 Your media team: four agents
+## 🧑‍💼 One AI media buyer, inside Claude Code
 
-The plugin installs four Claude Code agents. Claude hands each job to the right one; each works in its own context, so long jobs stay sharp, and several can run side by side.
-
-| | Agent | Owns |
-|:-:|---|---|
-| 💸 | **Media Buyer** | Plans, launches, pacing, ad fatigue, what to scale or cut, audits |
-| 🎨 | **Creative Strategist** | Research, angles, hooks, briefs, ad copy, image and video ads, the Creative Pipeline |
-| 🛡️ | **Compliance Reviewer** | Every ad, claim, landing page and tracking setup before it goes live. It sees only the final ads, never the reasoning behind them, so its check is independent |
-| 📋 | **Account Manager** | Client reports, closed tests, the Learnings Log, what Instinct did this month |
+Instinct is your AI media buyer for Meta ads. You don't pick a playbook or an agent: you ask, and Instinct uses the right Growthmodo method for the job. Behind the scenes it hands long jobs to helper agents that work in their own context and can run side by side, and every finished ad gets a separate check (one that never sees how the ad was made) before it can spend.
 
 | Command | What it does |
 |---|---|
-| `/instinct:sprint <brand>` | A **creative sprint**: new ideas to checked ads, built paused, with your yes at each gate (ideas run in parallel) |
-| `/instinct:morning` | Checks **every saved brand at once**: one Media Buyer per brand, side by side, then one list of what needs you today, 🔴 first |
-| `/instinct:review <ads>` | An **independent pre-launch review** by the Compliance Reviewer |
-| `/instinct:agents` | Shows the team and how to hand it work |
+| `/instinct:sprint <brand>` | A **creative sprint**: new ideas to checked ads, built paused, with your yes at each step (ideas made in parallel) |
+| `/instinct:morning` | Checks **every saved brand at once**, side by side, then one list of what needs you today, 🔴 first |
+| `/instinct:review <ads>` | Instinct's **separate check** of your final ads before launch |
+| `/instinct:agents` | How Instinct works here, with requests to try |
 | `/instinct:safety on` | Optional guard: Claude Code asks you before any tool that would change your ad account or another app |
 
-Or just ask: *"Have the Creative Strategist give me 10 video ideas for Northwind, then the Compliance Reviewer on the finished ads."* Agents prepare changes; nothing in your ad account changes, and nothing goes to a client, without your yes. Want it enforced? `/instinct:safety on` adds a guard to your own Claude Code settings: Claude Code then asks you before any connector tool that would create, update, pause, delete, publish or send something runs, whichever agent calls it. The Compliance Reviewer has no access to your ad account at all.
+Or just ask: *"Give me 10 video ideas for Northwind and check the finished ads."* Instinct prepares changes; nothing in your ad account changes, and nothing goes to a client, without your yes. Want it enforced? `/instinct:safety on` adds a guard to your own Claude Code settings: Claude Code then asks you before any connector tool that would create, update, pause, delete, publish or send something runs. The separate check has no access to your ad account at all.
 
 <br>
 

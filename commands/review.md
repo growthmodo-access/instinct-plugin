@@ -1,5 +1,5 @@
 ---
-description: Independent pre-launch review: the Compliance Reviewer checks your final ads without seeing how they were made
+description: Instinct's separate check before launch: your final ads checked without seeing how they were made
 argument-hint: <ad copy, files or pipeline IDs, landing page URL, brand, markets>
 ---
 Get an independent Growthmodo Instinct compliance review of these ads: $ARGUMENTS

@@ -1,5 +1,5 @@
 ---
-description: Creative sprint: the media team takes new ideas all the way to checked ads, built paused, with your yes at each gate
+description: Creative sprint: Instinct takes new ideas all the way to checked ads, built paused, with your yes at each step
 argument-hint: <brand> [how many ideas and formats, markets]
 ---
 Run a Growthmodo Instinct creative sprint: $ARGUMENTS

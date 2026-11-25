@@ -9,4 +9,4 @@ Get an independent Growthmodo Instinct compliance review of these ads: $ARGUMENT
 3. Hand that material to the **compliance-reviewer** subagent in one job ("Pre-launch check for <brand>, markets <markets>: …").
 4. Show me its verdicts as returned (pass, fix with replacement text, or block, per ad), then one `👉 Next:` line. If any ad is "fix", offer to apply the replacement text and run the review again on the fixed version.
 
-If the Instinct tools are missing or return a license error, tell me to run `/plugin` → instinct → configure and enter the license key from my Growthmodo welcome email, and stop.
+If the Instinct tools are missing or return a license error, tell me to run `/plugin` → instinct → configure and enter the license key from my Dodo Payments email, and stop.

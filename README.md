@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.3.0-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.3.1-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -29,7 +29,7 @@ In Claude Code (terminal, the desktop app's Code tab, or your IDE):
 /plugin install instinct@growthmodo
 ```
 
-Paste the **license key** from your Growthmodo welcome email when asked, exactly as it appears. It goes into your system's secure storage and is only ever sent to Growthmodo Instinct. Restart Claude Code, type `/instinct`, done.
+Paste the **license key** from your Dodo Payments email (sent after you buy) when asked, exactly as it appears. It goes into your system's secure storage and is only ever sent to Growthmodo Instinct. Restart Claude Code, type `/instinct`, done.
 
 > [!TIP]
 > Connect a **Meta Ads** MCP server too, so audits, diagnoses and reports read your live numbers. Without it, Claude simply asks you for an export.
@@ -162,7 +162,7 @@ Into your operating system's secure storage via Claude Code's plugin settings. I
 <details>
 <summary><b>I use claude.ai, not Claude Code.</b></summary>
 <br>
-Same playbooks, no plugin needed: add Instinct as a custom connector with the URL from your welcome email, then use the <b>+</b> menu starters. Full guide: <a href="https://www.growthmodo.com/">growthmodo.com</a>.
+Same playbooks, no plugin needed: add Instinct as a custom connector with the URL <code>https://mcp.growthmodo.com/mcp?key=YOUR_KEY</code> (your key is in your Dodo Payments email), then use the <b>+</b> menu starters. Full guide: <a href="https://www.growthmodo.com/">growthmodo.com</a>.
 </details>
 
 <details>
@@ -174,7 +174,7 @@ Playbook updates are automatic — they're served live. For new commands, run <c
 <details>
 <summary><b>Commands say the Instinct tools are missing.</b></summary>
 <br>
-The license key isn't set or isn't active. Run <code>/plugin</code> → <b>instinct</b> → <b>Configure</b> and paste the key from your welcome email, then restart Claude Code. Still stuck? Contact Growthmodo.
+The license key isn't set or isn't active. Run <code>/plugin</code> → <b>instinct</b> → <b>Configure</b> and paste the key from your Dodo Payments email, then restart Claude Code. Still stuck? Contact Growthmodo.
 </details>
 
 <br>

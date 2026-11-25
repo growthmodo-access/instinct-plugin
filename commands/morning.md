@@ -16,4 +16,4 @@ Run the Growthmodo Instinct morning check.
    - `👉 Next:` the single most urgent reply.
 4. Change nothing in any ad account. When I reply to approve something, do that one change for that brand only, after confirming it back to me in one line.
 
-If the Instinct tools are missing or return a license error, tell me to run `/plugin` → instinct → configure and enter the license key from my Growthmodo welcome email, and stop.
+If the Instinct tools are missing or return a license error, tell me to run `/plugin` → instinct → configure and enter the license key from my Dodo Payments email, and stop.

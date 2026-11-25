@@ -10,7 +10,7 @@ Run the Growthmodo Instinct morning check.
 2. Start one **media-buyer** subagent per brand, all at the same time (several subagent calls in one message; at most 8 at once, then the next 8). Give each this job, with its brand filled in:
    "Morning check for <brand>, all its saved markets. Use the Pacing & Monitoring playbook: today's and month-to-date spend against plan, delivery problems, rejected or limited ads, tracking outages, and Creative Pipeline ideas stuck past their limits. Read only. Return the brand's status (🟢 On track, 🟡 Watch or 🔴 Act), the one thing that matters most with its number, and the exact reply that approves the fix if there is one."
 3. When they're all back, answer with:
-   - The header `**Growthmodo Instinct** · Morning check · <date>`.
+   - The header `**Morning check** · <date>`.
    - One table, 🔴 brands first, then 🟡, then 🟢: Brand · Status · The one thing · Reply to approve.
    - Under it, only for 🔴 and 🟡 brands, at most two lines each of detail.
    - A line for each brand that couldn't be checked and why (no Meta access to its account, no Mandate, no data), never skipped silently.

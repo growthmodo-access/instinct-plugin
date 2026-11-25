@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.4.0-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.5.0-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -53,8 +53,9 @@ The plugin installs four Claude Code agents. Claude hands each job to the right 
 | `/instinct:morning` | Checks **every saved brand at once**: one Media Buyer per brand, side by side, then one list of what needs you today, 🔴 first |
 | `/instinct:review <ads>` | An **independent pre-launch review** by the Compliance Reviewer |
 | `/instinct:agents` | Shows the team and how to hand it work |
+| `/instinct:safety on` | Optional guard: Claude Code asks you before any tool that would change your ad account or another app |
 
-Or just ask: *"Have the Creative Strategist give me 10 video ideas for Northwind, then the Compliance Reviewer on the finished ads."* Agents prepare changes; nothing in your ad account changes, and nothing goes to a client, without your yes. The plugin enforces it: Claude Code asks you before any connector tool that would create, update, pause, delete, publish or send something runs, whichever agent calls it, and the Compliance Reviewer has no access to your ad account at all.
+Or just ask: *"Have the Creative Strategist give me 10 video ideas for Northwind, then the Compliance Reviewer on the finished ads."* Agents prepare changes; nothing in your ad account changes, and nothing goes to a client, without your yes. Want it enforced? `/instinct:safety on` adds a guard to your own Claude Code settings: Claude Code then asks you before any connector tool that would create, update, pause, delete, publish or send something runs, whichever agent calls it. The Compliance Reviewer has no access to your ad account at all.
 
 <br>
 
@@ -117,15 +118,13 @@ The playbooks live on Growthmodo's servers and are sent to Claude only when you'
 
 > **You:** `/instinct:optimize CPA on Prospecting UK went from £22 to £29 this week`
 >
-> **Growthmodo Instinct** · Performance Optimizer
+> **Performance Optimizer** · Prospecting UK
 >
 > **Money at stake:** ~£2,480 a week at the new CPA.
 > **What happened:** CPA £22.40 → £29.10 (+30%) on 412 → 371 purchases. Not noise.
 > **Where:** "Prospecting – Broad UK" explains 78% of the extra cost; retargeting is flat.
 > **Why (high confidence):** CTR fell 27% on the top two ads — both 31 days old, frequency 3.1 — while CPM (+4%) and conversion rate (−2%) held. Creative fatigue. Checkout and auction ruled out.
 > **Do this:** launch two replacement ads into the same ad set this week; keep budget unchanged. Success = CPA under £24 within 7 days.
->
-> *Growthmodo Instinct · built on Growthmodo's media-buying playbooks*
 
 <br>
 

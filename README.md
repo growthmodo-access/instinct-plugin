@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.1-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.3.0-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -36,7 +36,28 @@ Paste the **license key** from your Growthmodo welcome email when asked, exactly
 
 <br>
 
-## 🧠 Eleven commands. All of Meta media buying.
+## 👥 Your media team: four agents
+
+The plugin installs four Claude Code agents. Claude hands each job to the right one; each works in its own context, so long jobs stay sharp, and several can run side by side.
+
+| | Agent | Owns |
+|:-:|---|---|
+| 💸 | **Media Buyer** | Plans, launches, pacing, ad fatigue, what to scale or cut, audits |
+| 🎨 | **Creative Strategist** | Research, angles, hooks, briefs, ad copy, image and video ads, the Creative Pipeline |
+| 🛡️ | **Compliance Reviewer** | Every ad, claim, landing page and tracking setup before it goes live. It sees only the final ads, never the reasoning behind them, so its check is independent |
+| 📋 | **Account Manager** | Client reports, closed tests, the Learnings Log, what Instinct did this month |
+
+| Command | What it does |
+|---|---|
+| `/instinct:morning` | Checks **every saved brand at once**: one Media Buyer per brand, side by side, then one list of what needs you today, 🔴 first |
+| `/instinct:review <ads>` | An **independent pre-launch review** by the Compliance Reviewer |
+| `/instinct:agents` | Shows the team and how to hand it work |
+
+Or just ask: *"Have the Creative Strategist give me 10 video ideas for Northwind, then the Compliance Reviewer on the finished ads."* Agents prepare changes; nothing in your ad account changes, and nothing goes to a client, without your yes.
+
+<br>
+
+## 🧠 Eleven playbooks as commands. All of Meta media buying.
 
 From the first brand conversation to the monthly report, the same eleven commands work for a brand spending $2,000 a month and one spending $20 million. The rules scale with the spend.
 
@@ -160,7 +181,7 @@ The license key isn't set or isn't active. Run <code>/plugin</code> → <b>insti
 
 ## 📦 What's in this repo
 
-Only the plugin wiring: the slash commands and the secure connection to Growthmodo Instinct. The playbooks, thresholds and templates are served by Instinct to licensed users and are not part of this repository.
+Only the plugin wiring: the slash commands, the four agents (each loads its brief from Instinct) and the secure connection to Growthmodo Instinct. The playbooks, thresholds and templates are served by Instinct to licensed users and are not part of this repository.
 
 ## License
 

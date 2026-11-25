@@ -162,7 +162,7 @@ Into your operating system's secure storage via Claude Code's plugin settings. I
 <details>
 <summary><b>I use claude.ai, not Claude Code.</b></summary>
 <br>
-Same playbooks, no plugin needed: add Instinct as a custom connector with the URL <code>https://mcp.growthmodo.com/mcp?key=YOUR_KEY</code> (your key is in your Dodo Payments email), then use the <b>+</b> menu starters. Full guide: <a href="https://www.growthmodo.com/">growthmodo.com</a>.
+Same playbooks, no plugin needed: add Instinct as a custom connector with the URL <code>https://mcp.growthmodo.com/mcp</code>, click <b>Connect</b> and sign in with the license key from your Dodo Payments email, then use the <b>+</b> menu starters. Full guide: <a href="https://www.growthmodo.com/">growthmodo.com</a>.
 </details>
 
 <details>

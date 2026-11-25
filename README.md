@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.3.1-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.4.0-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -49,11 +49,12 @@ The plugin installs four Claude Code agents. Claude hands each job to the right 
 
 | Command | What it does |
 |---|---|
+| `/instinct:sprint <brand>` | A **creative sprint**: new ideas to checked ads, built paused, with your yes at each gate (ideas run in parallel) |
 | `/instinct:morning` | Checks **every saved brand at once**: one Media Buyer per brand, side by side, then one list of what needs you today, 🔴 first |
 | `/instinct:review <ads>` | An **independent pre-launch review** by the Compliance Reviewer |
 | `/instinct:agents` | Shows the team and how to hand it work |
 
-Or just ask: *"Have the Creative Strategist give me 10 video ideas for Northwind, then the Compliance Reviewer on the finished ads."* Agents prepare changes; nothing in your ad account changes, and nothing goes to a client, without your yes.
+Or just ask: *"Have the Creative Strategist give me 10 video ideas for Northwind, then the Compliance Reviewer on the finished ads."* Agents prepare changes; nothing in your ad account changes, and nothing goes to a client, without your yes. The plugin enforces it: Claude Code asks you before any connector tool that would create, update, pause, delete, publish or send something runs, whichever agent calls it, and the Compliance Reviewer has no access to your ad account at all.
 
 <br>
 

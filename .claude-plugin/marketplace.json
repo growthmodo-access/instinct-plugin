@@ -9,7 +9,7 @@
       "name": "instinct",
       "source": "./",
       "description": "Growthmodo Instinct media-buying playbooks for Meta ads: a four-agent media team and slash commands.",
-      "version": "1.3.1"
+      "version": "1.4.0"
     }
   ]
 }

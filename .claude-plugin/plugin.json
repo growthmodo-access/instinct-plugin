@@ -1,7 +1,7 @@
 {
   "name": "instinct",
-  "version": "1.7.0",
-  "description": "Growthmodo Instinct: your AI Meta media buyer in Claude Code. Just ask in plain words; shortcuts like /instinct:ask, /instinct:start and /instinct:morning are there if you want them.",
+  "version": "1.8.0",
+  "description": "Growthmodo Instinct: your AI Meta media buyer in Claude Code and Cowork. Just ask in plain words; big jobs split across helpers side by side. Shortcuts like /instinct:ask, /instinct:start and /instinct:morning are there if you want them.",
   "author": {
     "name": "Growthmodo"
   },

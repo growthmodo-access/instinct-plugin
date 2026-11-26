@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.7.0-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.8.0-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -36,6 +36,12 @@ Paste the **license key** from your Dodo Payments email (sent after you buy) whe
 
 <br>
 
+### In Cowork
+
+In the Claude desktop app, open **Cowork → Customize → Plugins → Add marketplace**, add `growthmodo-access/instinct-plugin` and install **Instinct**. Paste your license key if it asks; if it doesn't, connect Instinct in Claude's connector settings (Cowork uses the same connectors). Then start a task and say *"Hi Instinct, what can you do for me?"*
+
+<br>
+
 ## 🧑‍💼 One AI media buyer. Just ask.
 
 Instinct is your AI media buyer for Meta ads. There's nothing to pick and no commands to learn: ask in plain words and Instinct uses the right Growthmodo method for the job.
@@ -45,7 +51,7 @@ Instinct is your AI media buyer for Meta ads. There's nothing to pick and no com
 > *"Give me 10 video ideas for Northwind and check the finished ads."*<br>
 > *"Build this week's client report for Northwind."*
 
-Behind the scenes it hands long jobs to a helper that works in its own context and can run side by side, and every finished ad gets a separate check (one that never sees how the ad was made) before it can spend. Instinct prepares changes; nothing in your ad account changes, and nothing goes to a client, without your yes.
+For big jobs it plans first, runs what everything depends on (tracking) first, then hands the independent pieces (each brand, market, competitor or client) to helpers that work side by side in their own context, and gives you one answer, and every finished ad gets a separate check (one that never sees how the ad was made) before it can spend. Instinct prepares changes; nothing in your ad account changes, and nothing goes to a client, without your yes.
 
 <br>
 

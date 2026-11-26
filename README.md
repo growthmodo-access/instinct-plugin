@@ -6,7 +6,7 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.8.0-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.9.0-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
@@ -64,6 +64,7 @@ For big jobs it plans first, runs what everything depends on (tracking) first, t
 | `/instinct:morning` | Checks **every saved brand at once**, then one list of what needs you today, 🔴 first |
 | `/instinct:sprint <brand>` | A **creative sprint**: new ideas to checked ads, built paused, with your yes at each step |
 | `/instinct:review <ads>` | Instinct's **separate check** of your final ads before launch |
+| `/instinct:update` | Load the newest playbooks into this conversation and see what changed, without starting a new one |
 | `/instinct:safety on` | Optional guard: Claude Code asks you before any tool that would change your ad account or another app |
 
 <details>

@@ -1,7 +1,7 @@
 {
   "name": "instinct",
-  "version": "1.6.0",
-  "description": "Growthmodo Instinct: your AI Meta media buyer in Claude Code — one assistant, with slash commands for onboarding, research, creative strategy, ad creative, pre-launch checks, plan & launch, pacing, ad fatigue, optimisation, client reports and learnings.",
+  "version": "1.7.0",
+  "description": "Growthmodo Instinct: your AI Meta media buyer in Claude Code. Just ask in plain words; shortcuts like /instinct:ask, /instinct:start and /instinct:morning are there if you want them.",
   "author": {
     "name": "Growthmodo"
   },

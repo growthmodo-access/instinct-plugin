@@ -6,14 +6,14 @@
   <img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude%20Code-plugin-304BFF?style=for-the-badge">
   <img alt="Meta Ads" src="https://img.shields.io/badge/Meta%20Ads-playbooks-2E42E6?style=for-the-badge">
   <img alt="Read-only" src="https://img.shields.io/badge/your%20ad%20account-read--only-1F2DB8?style=for-the-badge">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.6.0-121820?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.7.0-121820?style=for-the-badge">
 </p>
 
 <h3 align="center">Stop asking Claude for "some ideas".<br>Ask it the way a senior media buyer would — and get the answer a senior media buyer would give.</h3>
 
 <br>
 
-Growthmodo Instinct plugs **Growthmodo's media-buying playbooks** into Claude. Type `/instinct`, pick a job, and Claude works the way our buyers do: it checks the numbers before it believes them, finds *where* the money went, says how sure it is, and hands you **one** thing to do. Reports and audits come back as **branded, client-ready pages** — not a wall of chat.
+Growthmodo Instinct plugs **Growthmodo's media-buying playbooks** into Claude. Just ask, the way you'd brief a media buyer, and Claude works the way our buyers do: it checks the numbers before it believes them, finds *where* the money went, says how sure it is, and hands you **one** thing to do. Reports and audits come back as **branded, client-ready pages** — not a wall of chat.
 
 <br>
 
@@ -29,32 +29,41 @@ In Claude Code (terminal, the desktop app's Code tab, or your IDE):
 /plugin install instinct@growthmodo
 ```
 
-Paste the **license key** from your Dodo Payments email (sent after you buy) when asked, exactly as it appears. It goes into your system's secure storage and is only ever sent to Growthmodo Instinct. Restart Claude Code, type `/instinct`, done.
+Paste the **license key** from your Dodo Payments email (sent after you buy) when asked, exactly as it appears. It goes into your system's secure storage and is only ever sent to Growthmodo Instinct. Restart Claude Code and say *"Hi Instinct, what can you do for me?"* Done.
 
 > [!TIP]
 > Connect a **Meta Ads** MCP server too, so audits, diagnoses and reports read your live numbers. Without it, Claude simply asks you for an export.
 
 <br>
 
-## 🧑‍💼 One AI media buyer, inside Claude Code
+## 🧑‍💼 One AI media buyer. Just ask.
 
-Instinct is your AI media buyer for Meta ads. You don't pick a playbook or an agent: you ask, and Instinct uses the right Growthmodo method for the job. Behind the scenes it hands long jobs to helper agents that work in their own context and can run side by side, and every finished ad gets a separate check (one that never sees how the ad was made) before it can spend.
+Instinct is your AI media buyer for Meta ads. There's nothing to pick and no commands to learn: ask in plain words and Instinct uses the right Growthmodo method for the job.
 
-| Command | What it does |
-|---|---|
-| `/instinct:sprint <brand>` | A **creative sprint**: new ideas to checked ads, built paused, with your yes at each step (ideas made in parallel) |
-| `/instinct:morning` | Checks **every saved brand at once**, side by side, then one list of what needs you today, 🔴 first |
-| `/instinct:review <ads>` | Instinct's **separate check** of your final ads before launch |
-| `/instinct:agents` | How Instinct works here, with requests to try |
-| `/instinct:safety on` | Optional guard: Claude Code asks you before any tool that would change your ad account or another app |
+> *"Onboard Northwind Coffee: website northwind.coffee, UK, about £15k a month on Meta."*<br>
+> *"Why did CPA jump on Prospecting UK this week?"*<br>
+> *"Give me 10 video ideas for Northwind and check the finished ads."*<br>
+> *"Build this week's client report for Northwind."*
 
-Or just ask: *"Give me 10 video ideas for Northwind and check the finished ads."* Instinct prepares changes; nothing in your ad account changes, and nothing goes to a client, without your yes. Want it enforced? `/instinct:safety on` adds a guard to your own Claude Code settings: Claude Code then asks you before any connector tool that would create, update, pause, delete, publish or send something runs. The separate check has no access to your ad account at all.
+Behind the scenes it hands long jobs to a helper that works in its own context and can run side by side, and every finished ad gets a separate check (one that never sees how the ad was made) before it can spend. Instinct prepares changes; nothing in your ad account changes, and nothing goes to a client, without your yes.
 
 <br>
 
-## 🧠 Eleven playbooks as commands. All of Meta media buying.
+## ⌨️ Shortcuts, if you want them
 
-From the first brand conversation to the monthly report, the same eleven commands work for a brand spending $2,000 a month and one spending $20 million. The rules scale with the spend.
+| Command | What it does |
+|---|---|
+| `/instinct:ask <anything>` | Ask Instinct anything, in your own words |
+| `/instinct:start` | Onboard a brand: what's connected, brand profile, Mandate and tracking check |
+| `/instinct:morning` | Checks **every saved brand at once**, then one list of what needs you today, 🔴 first |
+| `/instinct:sprint <brand>` | A **creative sprint**: new ideas to checked ads, built paused, with your yes at each step |
+| `/instinct:review <ads>` | Instinct's **separate check** of your final ads before launch |
+| `/instinct:safety on` | Optional guard: Claude Code asks you before any tool that would change your ad account or another app |
+
+<details>
+<summary><b>Every command</b>: one per playbook, for when you want a specific one</summary>
+
+<br>
 
 | | Command | What you get back |
 |:-:|---|---|
@@ -71,7 +80,7 @@ From the first brand conversation to the monthly report, the same eleven command
 | 🧠 | `/instinct:learnings` | **Learnings log**: close out tests and keep what won and lost, so the next round starts smarter |
 | 🆕 | `/instinct:whats-new` | What changed in the playbooks since you last looked |
 
-Prefer plain English? Just ask — *"why did CPA jump on Prospecting UK this week?"* — Instinct picks the right playbook on its own.
+</details>
 
 <br>
 
@@ -174,7 +183,7 @@ The license key isn't set or isn't active. Run <code>/plugin</code> → <b>insti
 
 ## 📦 What's in this repo
 
-Only the plugin wiring: the slash commands, the four agents (each loads its brief from Instinct) and the secure connection to Growthmodo Instinct. The playbooks, thresholds and templates are served by Instinct to licensed users and are not part of this repository.
+Only the plugin wiring: the slash commands, two helper agents (Instinct and its separate check, each loading its brief from Instinct) and the secure connection to Growthmodo Instinct. The playbooks, thresholds and templates are served by Instinct to licensed users and are not part of this repository.
 
 ## License
 

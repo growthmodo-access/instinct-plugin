@@ -65,7 +65,7 @@ For big jobs it plans first, runs what everything depends on (tracking) first, t
 | `/instinct:sprint <brand>` | A **creative sprint**: new ideas to checked ads, built paused, with your yes at each step |
 | `/instinct:review <ads>` | Instinct's **separate check** of your final ads before launch |
 | `/instinct:update` | Load the newest playbooks into this conversation and see what changed, without starting a new one |
-| `/instinct:safety on` | Optional guard: Claude Code asks you before any tool that would change your ad account or another app |
+| `/instinct:safety` | The account-change guard, **on by default**: Claude Code asks you before any tool that would change your ad account or another app. `/instinct:safety off` turns it off |
 
 <details>
 <summary><b>Every command</b>: one per playbook, for when you want a specific one</summary>

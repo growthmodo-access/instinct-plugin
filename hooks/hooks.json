@@ -1,0 +1,11 @@
+{
+  "description": "Growthmodo Instinct account-change guard: asks you before any connector tool that would change an ad account or another app. Turn off with /instinct:safety off.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*",
+        "hooks": [{ "type": "command", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/confirm-writes.sh\"" }]
+      }
+    ]
+  }
+}

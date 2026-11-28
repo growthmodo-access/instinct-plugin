@@ -63,8 +63,9 @@ For big jobs it plans first, runs what everything depends on (tracking) first, t
 | `/instinct:start` | Onboard a brand: what's connected, brand profile, Mandate and tracking check |
 | `/instinct:morning` | Checks **every saved brand at once**, then one list of what needs you today, 🔴 first |
 | `/instinct:sprint <brand>` | A **creative sprint**: new ideas to checked ads, built paused, with your yes at each step |
-| `/instinct:review <ads>` | Instinct's **separate check** of your final ads before launch |
-| `/instinct:update` | Load the newest playbooks into this conversation and see what changed, without starting a new one |
+| `/instinct:check <ads>` | Instinct's **separate check** of your final ads before launch (or ask about one claim, landing page or tracking) |
+| `/instinct:update` | See what changed and load the newest playbooks into this conversation, without starting a new one |
+| `/instinct:help` | How Instinct works, with example requests to try |
 | `/instinct:safety` | The account-change guard, **on by default**: Claude Code asks you before any tool that would change your ad account or another app. `/instinct:safety off` turns it off |
 
 <details>
@@ -78,14 +79,14 @@ For big jobs it plans first, runs what everything depends on (tracking) first, t
 | 🔭 | `/instinct:research [competitors]` | **Market research**: competitor ads plus what customers actually say, turned into angles you can own |
 | 🎯 | `/instinct:angles <offer>` | **Creative strategy**: angles, hooks and concepts, each with a hypothesis and test plan, plus a designer-ready brief |
 | 🎬 | `/instinct:creative <concept>` | **Ad creative**: copy variants, ready-to-paste image ad prompts, and video ads made with your AI video tool after you approve the storyboard and the credits |
-| 🛡️ | `/instinct:check <ad / url>` | **Pre-launch check**: Meta policy and local rules, the landing page (graded, with rewrites) and tracking, each pass, fix or block |
+| 🛡️ | `/instinct:check <ads / url>` | **Pre-launch check**: finished ads get a separate check that hasn't seen how they were made; or check one claim, a landing page (graded, with rewrites) or tracking. Each pass, fix or block |
 | 🛫 | `/instinct:launch <offer>` | **Plan & launch**: a media plan sized to the budget, built **paused**, live only when you say so, with a launch tracker |
 | 📈 | `/instinct:monitor` | **Pacing & monitoring**: spend vs plan per market, delivery problems, tracking outages, Day 1/3/7/14 checkpoints |
 | 🔁 | `/instinct:fatigue` | **Ad fatigue**: each ad against its own first week and Meta's signals; which ads are wearing out, days left, what to replace first |
 | 📉 | `/instinct:optimize [question]` | **Performance optimizer**: why CPA moved, what to scale, hold, fix or cut, or a graded audit deck |
 | 📊 | `/instinct:report <client>` | A **branded client report**: scorecard vs target, day-by-day charts, a verdict on every campaign |
 | 🧠 | `/instinct:learnings` | **Learnings log**: close out tests and keep what won and lost, so the next round starts smarter |
-| 🆕 | `/instinct:whats-new` | What changed in the playbooks since you last looked |
+| 🆕 | `/instinct:update` | What changed in the playbooks, loaded into this conversation |
 
 </details>
 
@@ -177,7 +178,7 @@ Same playbooks, no plugin needed: add Instinct as a custom connector with the UR
 <details>
 <summary><b>How do I get updates?</b></summary>
 <br>
-Playbook updates are automatic — they're served live. For new commands, run <code>/plugin</code> → <b>instinct</b> → <b>Update</b>. Ask <code>/instinct:whats-new</code> to see what changed.
+Playbook updates are automatic — they're served live. For new commands, run <code>/plugin</code> → <b>instinct</b> → <b>Update</b>. Run <code>/instinct:update</code> to see what changed.
 </details>
 
 <details>

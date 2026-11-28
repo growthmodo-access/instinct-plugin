@@ -66,7 +66,7 @@ For big jobs it plans first, runs what everything depends on (tracking) first, t
 | `/instinct:check <ads>` | Instinct's **separate check** of your final ads before launch (or ask about one claim, landing page or tracking) |
 | `/instinct:update` | See what changed and load the newest playbooks into this conversation, without starting a new one |
 | `/instinct:help` | How Instinct works, with example requests to try |
-| `/instinct:safety` | The account-change guard, **on by default**: Claude Code asks you before any tool that would change your ad account or another app. `/instinct:safety off` turns it off |
+| `/instinct:safety` | The account-change guard, **on by default**: Claude Code asks you before any tool that would change your ad account or another app. `/instinct:safety off` turns it off. After every change to an ad account, Instinct also reads it back and shows you what's live next to what you approved |
 
 <details>
 <summary><b>Every command</b>: one per playbook, for when you want a specific one</summary>

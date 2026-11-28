@@ -1,10 +1,26 @@
 {
-  "description": "Growthmodo Instinct account-change guard: asks you before any connector tool that would change an ad account or another app. Turn off with /instinct:safety off.",
+  "description": "Growthmodo Instinct: the account-change guard asks you before any connector tool that would change an ad account or another app (turn off with /instinct:safety off); the read-back makes Claude re-read and show every ad-account change right after it's made.",
   "hooks": {
     "PreToolUse": [
       {
         "matcher": "mcp__.*",
-        "hooks": [{ "type": "command", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/confirm-writes.sh\"" }]
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/confirm-writes.sh\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/read-back.sh\""
+          }
+        ]
       }
     ]
   }

@@ -4,7 +4,7 @@ argument-hint: on | off | status
 ---
 Manage the Growthmodo Instinct account-change guard: $ARGUMENTS (default: status)
 
-The guard comes with the plugin and is **on by default**. Before any connector tool whose name says it creates, updates, pauses, deletes, publishes, sends, generates or similar runs (in any app, called by any agent), Claude Code asks me first. Reads are never affected, and Growthmodo Instinct's own tools are excluded. Turning it off creates one file, `~/.claude/growthmodo-guard-off`; turning it on removes it.
+The guard comes with the plugin and is **on by default**. Before any connector tool whose name says it creates, updates, pauses, deletes, publishes, sends, generates or similar runs (in any app, called by any agent), Claude Code asks me first. Reads are never affected, and Growthmodo Instinct's own tools are excluded. Turning it off creates one file, `~/.claude/growthmodo-guard-off`; turning it on removes it. Separately, the plugin always makes Claude read back every ad-account change right after it's made and show what's live next to what I approved; that read-back isn't affected by this switch.
 
 **status**: say whether the guard is on (the file `~/.claude/growthmodo-guard-off` does **not** exist) or off (it exists). Also check `~/.claude/settings.json` for an older copy of the guard: a `hooks.PreToolUse` entry whose command runs `growthmodo-confirm-writes.sh`. If it's there, say I'd be asked twice and offer to remove that entry and `~/.claude/hooks/growthmodo-confirm-writes.sh` (on my yes, remove only those two things). Change nothing else.
 
